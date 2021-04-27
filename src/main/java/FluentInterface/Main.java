@@ -12,8 +12,8 @@ public class Main {
             .withPlayer( name("Nocturne"), age(597), level(16) ).asMaster()
             .withAdversary(g1)
             .setOnEarth()
-            .withPlayer( name("Ekko"))
+            .withPlayer( name("Fizz"))
             .withPlayer( age(27), level(18))
-            .withAdversary(g2.withPlayer( name("Lissandra"), level(12)).setInSpace().finish())
+            .withAdversary(g2.withPlayer( name("Jinx"), level(12)).setInSpace().finish())
             .finish();
 }
